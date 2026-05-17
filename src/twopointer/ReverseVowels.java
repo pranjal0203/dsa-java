@@ -12,7 +12,7 @@ Time Complexity:
 O(N)
 
 Space Complexity:
-O(1)
+O(N)
 
 We are using char array because Strings are immutable and we cannot swap in the string object, java does not allow it.
 Trade of between indexOf and isVowel function: With function atmost 5 compariosn are happening, but in indexOf atmost 10 comparisons
